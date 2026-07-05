@@ -42,15 +42,15 @@ Full Stack Developer @ Web Solutions (2020 - 2022)
         contact: {
             description: 'Get contact information',
             usage: 'contact',
-            fn: () => `Email: ankur@example.com
-Phone: +1 (555) 123-4567
+            fn: () => `Email: supriyabhowmick321@gmail.com
+Phone: 7596942313
 Location: San Francisco, CA`
         },
         github: {
             description: 'Open GitHub profile',
             usage: 'github',
             fn: () => {
-                window.open('https://github.com', '_blank')
+                window.open('https://github.com/supriya759694', '_blank')
                 return 'Opening GitHub...'
             }
         },
@@ -62,9 +62,9 @@ Location: San Francisco, CA`
         social: {
             description: 'View social media links',
             usage: 'social',
-            fn: () => `Twitter: @ankurdev
-LinkedIn: /in/ankurprajapati
-Portfolio: ankurprajapati.dev`
+            fn: () => `
+LinkedIn: https://www.linkedin.com/in/supriya-bhowmick-b31181227/
+Portfolio: supriyabhowmick.dev`
         },
         echo: {
             description: 'Echo a passed string',
@@ -96,7 +96,7 @@ Happy exploring! 🚀
                 <Terminal
                     commands={commands}
                     welcomeMessage={welcomeMessage}
-                    promptLabel={'ankurprajapati:~$'}
+                    promptLabel={'supriyabhowmick:~$'}
                     promptLabelStyle={{ color: '#00ff00' }}
                 />
             </div>
